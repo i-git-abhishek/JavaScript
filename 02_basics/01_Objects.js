@@ -17,4 +17,13 @@ const obj3 = {5:"a", 6:"b"}
 let obj4 = {}
 Object.assign(obj3, obj1, obj2, obj3)
 
-console.log(obj3)
+// console.log(obj3)
+Destructuring
+const course = {
+    coursename: "JS Padh",
+    courseprice: 9999,
+    iscompleted: false
+}
+
+const {coursename: cn} = course
+console.log(cn)
